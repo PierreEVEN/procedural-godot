@@ -1,0 +1,15 @@
+[configuration]
+
+entry_symbol = "extension_library_init"
+compatibility_minimum = 4.1
+
+[libraries]
+
+windows.debug.x86_32 = "res://bin/extensions/Debug/procedural_godotd.dll"
+windows.debug.x86_64 = "res://bin/extensions/Debug/procedural_godotd.dll"
+windows.release.x86_32 = "res://bin/extensions/Release/procedural_godot.dll"
+windows.release.x86_64 = "res://bin/extensions/Release/procedural_godot.dll"
+linux.debug.x86_32 = "res://bin/extensions/libroguelited.so"
+linux.debug.x86_64 = "res://bin/extensions/libroguelited.so"
+linux.release.x86_32 = "res://bin/extensions/libroguelite.so"
+linux.release.x86_64 = "res://bin/extensions/libroguelite.so"

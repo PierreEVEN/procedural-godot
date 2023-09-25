@@ -18,7 +18,8 @@ namespace godot
 		}
 
 		ClassDB::register_class<GDExample>();
-		ClassDB::register_class<ProceduralTerrain>();
+		ClassDB::register_class<pt::ProceduralTerrain>();
+		ClassDB::register_class<pt::Chunk>();
 	}
 
 	void uninitialize_example_module(ModuleInitializationLevel p_level)

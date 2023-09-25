@@ -1,5 +1,8 @@
-[gd_scene format=3 uid="uid://cp0u8tg08ofi4"]
+[gd_scene load_steps=2 format=3 uid="uid://cp0u8tg08ofi4"]
+
+[ext_resource type="Material" path="res://M_Dark.tres" id="1_vpank"]
 
 [node name="Node3D" type="Node3D"]
 
 [node name="ProceduralTerrain" type="ProceduralTerrain" parent="."]
+material = ExtResource("1_vpank")
